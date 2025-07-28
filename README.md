@@ -56,4 +56,11 @@ Introduction
      git checkout -b <branchName> (to create new branch)
      git checkout <branchName> (to navigate to branch) 
      git branch -d <branchName> (to delete branch)
+     git push origin feature1 (to send file to GitHub)git
      git push origin --delete feature1 (to delete any branch from GitHub)
+14. Merging Code
+     Way 1
+          git diff <branchName> (to compare commits,branches, files and more)
+          git merge <branchName> (to merge 2 branches)
+     Way 2
+          Create a Pull Request
