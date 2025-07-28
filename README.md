@@ -1,66 +1,109 @@
-# First-Repo
-This is my first repository, I am naking this  with reference to the apna college youtube 1hr video on gtihub.
-This repo includes: - 
-Introduction
-1. Git Introduction
-     A version control system that helps to track changes in code, It is free and open source.
-2. GitHub Introduction
-     Website that allows developers to store and manage their code using Git.
-4. Configuring Git & Git Hub
-     git --version : to check the latest version of git (run this in Git Bash)
-     git config --global user.name "MruneshB" : to declare user name throughout the project (use **global** is you use only 1 git/github account or you can also use **local**
-     git config user.email "mruneshbabar7@gmail.com" : to declare user email
-     git config list - to check above changes that have been made to git.
-5. Working with VS Code
-     Use VS Code, to write your code and then deploy it to the GitHub via VS Code terminal.
-     Create a folder and on the terminal check for git --version
-6. Clone and Status
-     Clone: We can copy any project from git using the git clone (copy any https link from the green code button).
-            cd (change directory) - after cloning change your directory to project dir
-            ls (list files) - gives the names of all files present.
-            ls -a (to show hidden files).
-7. Types of Status
-     Untracked: new files that git does not track yet
-     Modified: files that have changed
-     Staged: file is ready to commit (done by using add ' ')
-     Unmodified: files which are unchanged ( which are commited)
-8. Add & Commit commands
-     adds new or unchanged files in your working directory to the git staging area.
-          git add First-Repo.html
-     commit is the record of change
-          git commit -m "some message"
-          git commit . (to commit all the files)
-9. Push command
-     push - uploads local repo (system/pc) content to remote repo (GitHub)
-          git push origin main (here origin is the name declared for the respective Github repo, we can have any name for it. Also main is for the main branch we are pushing our repo to)
-10. Create a new repo in VS Code 
-        Use cd.. to get out of the first repo and initialize a new repo using 'git init'
-        make a new directory named second repo using mkdir Second-Repo 
-        create new files in it
-11. Init Command
-        used to create a new repo in system/pc using git init
-        git remote add origin <link>
-        git remote -v
-        git branch
-        git branch -m main (to rename branch)
-12. Workflow 
-        1.Create a Github Repo.
-        2. Clone your repo to local system.
-        3. Input the data, do the required changes.
-        4. Add to staging area.
-        5. Commit the changes.
-        6. Push the repo to origin main (GitHub)
-13. Branch
-     git branch (to check branch)
-     git branch -m main (to rename branch)
-     git checkout -b <branchName> (to create new branch)
-     git checkout <branchName> (to navigate to branch) 
-     git branch -d <branchName> (to delete branch)
-     git push origin feature1 (to send file to GitHub)git
-     git push origin --delete feature1 (to delete any branch from GitHub)
-14. Merging Code
-     Way 1
-          git diff <branchName> (to compare commits,branches, files and more)
-          git merge <branchName> (to merge 2 branches)
-     Way 2
-          Create a Pull Request
+  <h1>First-Repo</h1>
+  <p>This is my first repository, I am making this with reference to the Apna College YouTube 1hr video on GitHub.</p>
+
+  <h2>This repo includes:</h2>
+
+  <details>
+    <summary>1. Git Introduction</summary>
+    <p>A version control system that helps to track changes in code. It is free and open source.</p>
+  </details>
+
+  <details>
+    <summary>2. GitHub Introduction</summary>
+    <p>Website that allows developers to store and manage their code using Git.</p>
+  </details>
+
+  <details>
+    <summary>3. Configuring Git & GitHub</summary>
+    <ul>
+      <li><code>git --version</code>: Check Git version</li>
+      <li><code>git config --global user.name "MruneshB"</code>: Set global username</li>
+      <li><code>git config user.email "mruneshbabar7@gmail.com"</code>: Set email</li>
+      <li><code>git config list</code>: Check config</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>4. Working with VS Code</summary>
+    <p>Use VS Code to write and deploy code via terminal.</p>
+  </details>
+
+  <details>
+    <summary>5. Clone and Status</summary>
+    <ul>
+      <li><code>git clone [url]</code></li>
+      <li><code>cd</code>, <code>ls</code>, <code>ls -a</code></li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>6. Types of Status</summary>
+    <ul>
+      <li>Untracked</li>
+      <li>Modified</li>
+      <li>Staged</li>
+      <li>Unmodified</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>7. Add & Commit commands</summary>
+    <ul>
+      <li><code>git add First-Repo.html</code></li>
+      <li><code>git commit -m "some message"</code></li>
+      <li><code>git commit .</code></li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>8. Push command</summary>
+    <p><code>git push origin main</code> — Pushes code to GitHub main branch.</p>
+  </details>
+
+  <details>
+    <summary>9. Create a new repo in VS Code</summary>
+    <ul>
+      <li><code>cd..</code> to move up</li>
+      <li><code>mkdir Second-Repo</code></li>
+      <li><code>git init</code></li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>10. Init Command</summary>
+    <ul>
+      <li><code>git init</code></li>
+      <li><code>git remote add origin &lt;link&gt;</code></li>
+      <li><code>git branch -m main</code></li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>11. Workflow</summary>
+    <ol>
+      <li>Create GitHub repo</li>
+      <li>Clone to system</li>
+      <li>Make changes</li>
+      <li>Add, Commit</li>
+      <li>Push to GitHub</li>
+    </ol>
+  </details>
+
+  <details>
+    <summary>12. Branch</summary>
+    <ul>
+      <li><code>git branch</code>, <code>git checkout -b branchName</code></li>
+      <li><code>git push origin feature1</code></li>
+      <li><code>git push origin --delete feature1</code></li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>13. Merging Code</summary>
+    <ul>
+      <li><code>git diff branchName</code></li>
+      <li><code>git merge branchName</code></li>
+      <li>Or use Pull Request on GitHub</li>
+    </ul>
+  </details>
+
