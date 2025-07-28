@@ -50,4 +50,9 @@ Introduction
         4. Add to staging area.
         5. Commit the changes.
         6. Push the repo to origin main (GitHub)
-     
+13. Branch
+     git branch (to check branch)
+     git branch -m main (to rename branch)
+     git checkout -b <branchName> (to create new branch)
+     git checkout <branchName> (to navigate to branch) 
+     git branch -d <branchName> (to delete branch)
