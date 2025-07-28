@@ -30,7 +30,24 @@ Introduction
      commit is the record of change
           git commit -m "some message"
           git commit . (to commit all the files)
-9. Push and Pull commands
+9. Push command
      push - uploads local repo (system/pc) content to remote repo (GitHub)
           git push origin main (here origin is the name declared for the respective Github repo, we can have any name for it. Also main is for the main branch we are pushing our repo to)
+10. Create a new repo in VS Code 
+        Use cd.. to get out of the first repo and initialize a new repo using 'git init'
+        make a new directory named second repo using mkdir Second-Repo 
+        create new files in it
+11. Init Command
+        used to create a new repo in system/pc using git init
+        git remote add origin <link>
+        git remote -v
+        git branch
+        git branch -m main (to rename branch)
+12. Workflow 
+        1.Create a Github Repo.
+        2. Clone your repo to local system.
+        3. Input the data, do the required changes.
+        4. Add to staging area.
+        5. Commit the changes.
+        6. Push the repo to origin main (GitHub)
      
