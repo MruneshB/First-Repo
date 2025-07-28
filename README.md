@@ -56,3 +56,4 @@ Introduction
      git checkout -b <branchName> (to create new branch)
      git checkout <branchName> (to navigate to branch) 
      git branch -d <branchName> (to delete branch)
+     git push origin --delete feature1 (to delete any branch from GitHub)
