@@ -24,10 +24,13 @@ Introduction
      Modified: files that have changed
      Staged: file is ready to commit (done by using add ' ')
      Unmodified: files which are unchanged ( which are commited)
-8. Add & Commit
+8. Add & Commit commands
      adds new or unchanged files in your working directory to the git staging area.
           git add First-Repo.html
      commit is the record of change
           git commit -m "some message"
           git commit . (to commit all the files)
-          
+9. Push and Pull commands
+     push - uploads local repo (system/pc) content to remote repo (GitHub)
+          git push origin main (here origin is the name declared for the respective Github repo, we can have any name for it. Also main is for the main branch we are pushing our repo to)
+     
