@@ -19,3 +19,15 @@ Introduction
             cd (change directory) - after cloning change your directory to project dir
             ls (list files) - gives the names of all files present.
             ls -a (to show hidden files).
+7. Types of Status
+     Untracked: new files that git does not track yet
+     Modified: files that have changed
+     Staged: file is ready to commit (done by using add ' ')
+     Unmodified: files which are unchanged ( which are commited)
+8. Add & Commit
+     adds new or unchanged files in your working directory to the git staging area.
+          git add First-Repo.html
+     commit is the record of change
+          git commit -m "some message"
+          git commit . (to commit all the files)
+          
