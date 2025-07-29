@@ -69,3 +69,15 @@ Introduction
 15. Pull Branch
       Pull - Used to fetch the content from a remote repo and update the local repo 
       git pull origin main
+16. Undoing changes
+      Case 1: Staged changes
+          git reset <fileName> (if you have added and you have to undo that)
+          git reset (to reset all)
+      Case 2: Commited changes for 1 commit
+          git reset HEAD~1 (HEAD refers to the last commit)
+      Case 3: Commited changes (for any commit)
+          git reset <CommitHash> (Hash (40 digits,in yellow) can be found using the command 'git log')
+          git reset --hard <CommitHash> 
+17. Fork
+      A fork is a new repo that shares code and visibility settings with original upstream repo.
+      Fork is a rough copy.
