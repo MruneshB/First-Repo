@@ -64,3 +64,9 @@ Introduction
           git merge <branchName> (to merge 2 branches)
      Way 2
           Create a Pull Request
+     Resolving Merge Conflicts
+        An event when the git is unable to resolve the differences in code between commits.
+15. Pull Request & Pull
+      It lets you tell others about the changes you have pushed to a branch in a repo on GitHub
+      Pull - Used to fetch the content from a remote repo and update the local repo 
+      git pull origin main
