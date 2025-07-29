@@ -50,3 +50,23 @@ Introduction
         4. Add to staging area.
         5. Commit the changes.
         6. Push the repo to origin main (GitHub)
+13. Branch
+     git branch (to check branch)
+     git branch -m main (to rename branch)
+     git checkout -b <branchName> (to create new branch)
+     git checkout <branchName> (to navigate to branch) 
+     git branch -d <branchName> (to delete branch)
+     git push origin feature1 (to send file to GitHub)git
+     git push origin --delete feature1 (to delete any branch from GitHub)
+14. Merging Code
+     Way 1
+          git diff <branchName> (to compare commits,branches, files and more)
+          git merge <branchName> (to merge 2 branches)
+     Way 2
+          Create a Pull Request
+     Resolving Merge Conflicts
+        An event when the git is unable to resolve the differences in code between commits.
+15. Pull Request & Pull
+      It lets you tell others about the changes you have pushed to a branch in a repo on GitHub
+      Pull - Used to fetch the content from a remote repo and update the local repo 
+      git pull origin main
